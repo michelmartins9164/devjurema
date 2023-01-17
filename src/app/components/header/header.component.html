@@ -1,0 +1,15 @@
+<header>
+    <h1>Jurema Atacados há mais de <span>4 anos</span> no setor atacadista</h1>
+</header>
+<section>
+  <article *ngFor="let item of urlImage">
+    <div class="banner">
+      <img src="../../../assets/images/{{item}}" alt="image card">
+    </div>
+    <div class="description">
+      <h2 *ngFor="let item of textimages">
+        {{item}}
+      </h2>
+    </div>
+  </article>
+</section>

@@ -1,0 +1,27 @@
+footer {
+  margin-top: 8rem;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+  padding: 0 1rem;
+  img {
+    width:200px
+  }
+
+  address {
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+  }
+
+  #phone {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
